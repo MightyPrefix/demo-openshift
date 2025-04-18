@@ -15,7 +15,6 @@ spec:
       labels:
         name: carts-db
     spec:
-      serviceAccountName: default
       containers:
       - name: carts-db
         image: mongo
